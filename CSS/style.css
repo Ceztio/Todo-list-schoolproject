@@ -1,0 +1,64 @@
+body {
+    /* Adds backround image */
+    background-image: url("../temp/bg_temp.jpg");
+}
+
+.test{
+    color: brown;
+}
+
+.list{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 90%;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-radius: 10px;
+    opacity: 0.5;
+    
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#text-list{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+
+.buttons{
+    position: absolute;
+    background-color: black;
+    height: 30%;
+    width: 20%;
+    margin-left: 47%;
+    margin-top: 2%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.add{
+    position: absolute; 
+    background: rgba(0, 0, 0, 0.5);
+    height: 10%;
+    width: 20%;
+    margin-left: 47%;
+    margin-top: 18%;
+    border-radius: 10px;
+    
+}
+
+.center-block {
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 40%;
+    margin-top: 2%;
+  }
+#enter-button{
+    margin: auto;
+    display: block;
+    margin-top: 2.5%;
+}
+#item-1{
+    
+}
