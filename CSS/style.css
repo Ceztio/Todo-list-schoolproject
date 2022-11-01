@@ -3,13 +3,17 @@ body {
     background-image: url("../temp/bg_temp.jpg");
 }
 
+li {
+    list-style-type: none;
+}
+
 .test{
     color: brown;
 }
 
 #list{
     position: absolute;
-    background: rgba(70, 70, 70, 0.5);
+    background: rgba(50, 50, 50, 0.7);
     height: 90%;
     width: 30%;
     margin-left: 15%;
@@ -27,20 +31,31 @@ body {
     color: white;
 }
 
+#lineOverText{
+    text-decoration: line-through;
+    color: gray;
+    font-style: italic;
+}
+.noLineOverText{
+    text-decoration: none;
+}
 
 .buttons{
+    font-family: Arial, sans-serif;
+    color: white;
     position: absolute;
-    background-color: black;
+    background: rgba(50, 50, 50, 0.7);
     height: 30%;
     width: 20%;
     margin-left: 47%;
     margin-top: 2%;
     border-radius: 10px;
-    opacity: 0.5;
+    font-size: 300%;
+    text-align: center;
 }
 .add{
     position: absolute; 
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(50, 50, 50, 0.7);
     height: 10%;
     width: 20%;
     margin-left: 47%;
@@ -73,4 +88,8 @@ body {
 #item-3{
     background-color: red;
     
+}
+#checkbox{
+    height:25px;
+    font-size:30pt;
 }
