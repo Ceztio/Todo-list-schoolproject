@@ -1,6 +1,21 @@
 body {
     /* Adds backround image */
-    background-image: url("../temp/bg_temp.jpg");
+    /* background-image: url("../background.jpg"); */
+    margin: 0px;
+    height: 100%;
+}
+
+#backroundcolor{
+    position: absolute;
+    margin:0;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    background-image:
+      linear-gradient(
+        rgb(128, 0, 255), #f006ae
+      );
 }
 
 li {
@@ -13,13 +28,13 @@ li {
 
 #list{
     position: absolute;
-    background: rgba(50, 50, 50, 0.7);
+    background: rgba(50, 50, 50, 0.4);
     height: 90%;
     width: 30%;
     margin-left: 15%;
     margin-top: 2%;
     border-radius: 10px;
-    
+    overflow: scroll;
     font-family: Arial, sans-serif;
 }
 #text-list{
@@ -44,7 +59,7 @@ li {
     font-family: Arial, sans-serif;
     color: white;
     position: absolute;
-    background: rgba(50, 50, 50, 0.7);
+    background: rgba(50, 50, 50, 0.4);
     height: 30%;
     width: 20%;
     margin-left: 47%;
@@ -55,7 +70,7 @@ li {
 }
 .add{
     position: absolute; 
-    background: rgba(50, 50, 50, 0.7);
+    background: rgba(50, 50, 50, 0.4);
     height: 10%;
     width: 20%;
     margin-left: 47%;
