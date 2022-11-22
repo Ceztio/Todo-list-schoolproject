@@ -60,6 +60,20 @@ function checkboxClicked(number) {
   
 }
 
+function deleteAll() {
+  if (confirm("Are you sure you want to delete the entire list?")){
+
+  var list = document.getElementById("text-list");
+  list.innerHTML = "";
+  checkBoxCounter = 0;
+  listLength = 0;
+  theList = [];
+  localStorage.setItem("check", JSON.stringify(theList)); // saves state of checkbox clicks
+  doneCounterFun();
+  localCookie()
+  }
+
+}
 
 // Coppied from w3schools. it works
 var input = document.getElementById("center-block");
